@@ -2,16 +2,16 @@ package com.bridgelabz;
 
 public class Maximum {
 
-    public Integer findmax(Integer firstPosition,Integer secondPosition,Integer thirdPosition){
-        Integer max=firstPosition;
+    public Integer findmax(Integer firsPosition,Integer secondPosition,Integer thirdPosition){
+        Integer max=firsPosition;
 
         if(secondPosition.compareTo(max)>0){
-            max=secondPosition;
+            return secondPosition;
         }
         if(thirdPosition.compareTo(max)>0){
-            max=thirdPosition;
+            return thirdPosition;
         }
-
+        else
         return max;
     }
 }
