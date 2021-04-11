@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class Maximum {
 
-    public Integer findmax(Integer firsPosition,Integer secondPosition,Integer thirdPosition){
+    public Integer findmax(Integer firstPosition,Integer secondPosition,Integer thirdPosition){
         Integer max=firsPosition;
 
         if(secondPosition.compareTo(max)>0){
